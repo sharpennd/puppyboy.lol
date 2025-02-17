@@ -10,7 +10,7 @@ body {
     margin: auto;
     border: 3px solid #444;
     background: #000;
-    padding: 20px;
+    padding: 10px;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 /* Navigation Bar */
 nav {
     background: #222;
-    padding: 10px;
+    padding: 1px;
     border-bottom: 3px solid #444;
 }
 
@@ -108,7 +108,7 @@ marquee {
 footer {
     background: #222;
     color: #aaa;
-    padding: 10px;
+    padding: 1px;
     border-top: 3px solid #444;
     margin-top: 20px;
 }
