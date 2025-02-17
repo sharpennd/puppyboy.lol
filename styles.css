@@ -1,3 +1,14 @@
+html, body {
+    height: 100%; /* Makes sure the page fills the screen */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Pushes the footer down */
+}
+
 body {
     background: #111;
     color: #ddd;
@@ -110,5 +121,6 @@ footer {
     color: #aaa;
     padding: 20px;
     border-top: 3px solid #444;
-    margin-top: 20px;
+    margin-top: auto; /* Ensures it stays at the bottom */
+    text-align: center; /* Optional: Centers footer content */
 }
