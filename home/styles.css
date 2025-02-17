@@ -20,10 +20,11 @@ header {
     border-bottom: 3px solid #444;
 }
 
+/* Navigation Bar */
 nav {
     background: #222;
-    padding: 5px 0; /* Keeps it thin while maintaining structure */
-    border-bottom: 2px solid #444;
+    padding: 10px;
+    border-bottom: 3px solid #444;
 }
 
 nav ul {
@@ -32,7 +33,6 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Ensures vertical alignment */
 }
 
 nav ul li {
@@ -40,13 +40,11 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 5px 15px; /* Adjusts spacing without breaking alignment */
+    padding: 10px 13px;
     text-decoration: none;
     color: #aaa;
     font-weight: bold;
-    font-size: 14px; /* Keeps font readable */
     display: inline-block;
-    line-height: 1.5; /* Ensures proper text alignment */
 }
 
 nav ul li a:hover {
