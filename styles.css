@@ -1,12 +1,12 @@
 html, body {
-    height: 100%; /* Makes sure the page fills the screen */
+    height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
 main {
-    flex: 1; /* Pushes the footer down */
+    flex: 1;
 }
 
 body {
@@ -31,7 +31,6 @@ header {
     border-bottom: 3px solid #444;
 }
 
-/* Navigation Bar */
 nav {
     background: #222;
     padding: 1px;
@@ -66,61 +65,53 @@ h1 {
     font-size: 28px;
 }
 
-/* Add margin to create space between marquee and nav bar */
 marquee {
     font-size: 14px;
     color: #999;
-    margin-top: 20px; /* Adds space between marquee and nav bar */
-    margin-bottom: 23px; /* Keeps space between marquee and About Me section */
+    margin-top: 20px;
+    margin-bottom: 23px;
 }
 
-/* Flexbox layout for About Me section */
 #about {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    padding: 0 20px; /* Add padding to the left and right sides */
+    padding: 0 20px;
 }
 
-/* Left section of About Me */
 .about-left {
     width: 60%;
     text-align: left;
-    padding: 0 20px; /* Optional: Adds padding inside the left section */
+    padding: 0 20px;
 }
 
-/* Right section of About Me */
 .about-right {
     width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px; /* Optional: Adds padding inside the right section */
+    padding: 0 20px;
 }
 
-/* Center the text inside the .about-left section */
 .about-left h2 {
     text-align: center;
 }
 
-/* Profile picture styling */
 .profile-pic {
-    width: 150px;  /* Adjust the size of your profile picture */
+    width: 150px;
     height: 150px;
 }
 
-/* Projects section */
 #projects {
     margin-top: 40px;
 }
 
-/* Footer */
 footer {
     background: #222;
     color: #aaa;
     padding: 1px;
     border-top: 3px solid #444;
-    margin-top: auto; /* Ensures it stays at the bottom */
-    text-align: center; /* Optional: Centers footer content */
+    margin-top: auto;
+    text-align: center;
 }
