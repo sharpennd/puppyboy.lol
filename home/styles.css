@@ -20,16 +20,37 @@ header {
     border-bottom: 3px solid #444;
 }
 
-/* Navigation Bar */
 nav {
     background: #222;
-    padding: 5px; /* Reduced padding */
-    border-bottom: 2px solid #444; /* Slightly thinner border */
+    padding: 5px 0; /* Keeps it thin while maintaining structure */
+    border-bottom: 2px solid #444;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+nav ul li {
+    margin: 0;
 }
 
 nav ul li a {
-    padding: 5px 15px; /* Reduced padding */
-    font-size: 14px; /* Optional: make text slightly smaller */
+    padding: 5px 15px; /* Adjusts spacing without breaking alignment */
+    text-decoration: none;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 14px; /* Keeps font readable */
+    display: inline-block;
+    line-height: 1.5; /* Ensures proper text alignment */
+}
+
+nav ul li a:hover {
+    background: #333;
 }
 
 h1 {
