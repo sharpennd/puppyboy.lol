@@ -103,6 +103,11 @@ marquee {
     height: 150px;
 }
 
+a.email-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 #projects {
     margin-top: 40px;
 }
